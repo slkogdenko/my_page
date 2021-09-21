@@ -12,6 +12,7 @@
 							<tr>
 								<td style="padding-right: 40px;"><a href="#" style="color: white; text-decoration: none;"><h1>Home</h1></a></td>
 								<td style="padding-right: 40px;"><a href="#" style="color: white; text-decoration: none;"><h1>About us</h1></a></td>
+								<td style="padding-right: 40px;"><input type="search" style="width: 300px;" placeholder="Search line"></td>
 							</tr>
 						</table>
 					</nav>
@@ -23,10 +24,11 @@
 				<!--Auth field -->
 				<div style="text-align: right; padding: 5px;">
 					<form>
-						Username
-						<input type="text" name="username" /><br /> <br>
-						Password
-						<input type="password" name="password" />
+						<label>Username</label>
+						<input type="text" name="username" placeholder="username/email" autofocus/><br /> <br>
+						
+						<label>Password</label>
+						<input type="password" name="password" placeholder="password" required/>
 					</form>
 					<form>
 						<input type="radio" name="gender" value="male" />male
@@ -48,6 +50,7 @@
 				Status: <progress min="0" max="100" value="35"></progress>
 					<svg width="" height="">
 						<circle cx="80" cy="80" r="50" fill="brown"/>
+						<!--<animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="2" /> -->
 					</svg>
 				
 				<p>O it's right!</p>
