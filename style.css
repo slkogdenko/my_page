@@ -1,4 +1,4 @@
-h1 {color:lavender; background-color: brown; padding: 5px;}
+h1 {color:lavender; background-color: brown; padding: 10px;}
 #nav {background-color: brown;}
 .auth {background-color: brown; color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-transform: uppercase;}
 
@@ -14,3 +14,10 @@ h1.article {text-shadow: 3px 4px 8px black;}
 ul.square {list-style-type: square;}
 a:hover {color: brown}
 div.hidden {display: none;}
+img {float: left;}
+
+
+div.res {
+    padding-left: 280px;
+
+}
