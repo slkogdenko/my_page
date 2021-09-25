@@ -6,3 +6,4 @@ h1 {color:lavender; background-color: brown; padding: 5px;}
 
 td.center {text-align: center;}
 td.indent {text-indent: 20px;}
+h1.article {text-shadow: 3px 4px 8px black;}
