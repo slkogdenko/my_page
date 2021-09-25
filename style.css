@@ -12,3 +12,5 @@ h1.article {text-shadow: 3px 4px 8px black;}
 }*/
 
 ul.square {list-style-type: square;}
+a:hover {color: brown}
+div.hidden {display: none;}
