@@ -21,3 +21,8 @@ div.res {
     padding-left: 280px;
     
 }
+div.new {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+}
